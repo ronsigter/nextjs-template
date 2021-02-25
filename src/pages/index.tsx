@@ -9,11 +9,9 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Box minH='100vh'>
-        <Flex justifyContent='center' alignItems='center'>
-          <Text>Hello</Text>
-        </Flex>
-      </Box>
+      <Flex minH='100vh' justifyContent='center' alignItems='center'>
+        <Text>Hello</Text>
+      </Flex>
     </Box>
   )
 }
