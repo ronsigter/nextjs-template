@@ -1,4 +1,6 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
+import { LoginLayout } from 'containers/Layouts'
+import Login from 'containers/Login'
 import { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -9,9 +11,9 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Flex minH='100vh' justifyContent='center' alignItems='center'>
-        <Text>Hello</Text>
-      </Flex>
+      <LoginLayout>
+        <Login />
+      </LoginLayout>
     </Box>
   )
 }

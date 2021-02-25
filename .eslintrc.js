@@ -1,4 +1,3 @@
-// .eslintrc.js
 module.exports = {
   root: true,
   env: {
@@ -21,7 +20,6 @@ module.exports = {
       },
       extends: [
         'eslint:recommended',
-        'eslint-config-prettier',
         'plugin:@typescript-eslint/recommended', // TypeScript rules
         'plugin:react/recommended', // React rules
         'plugin:react-hooks/recommended', // React hooks rules
