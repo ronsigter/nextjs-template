@@ -1,8 +1,12 @@
 1. Install
 
 ```
-yarn add -D eslint-config-prettier prettier
-yarn add -D stylelint stylelint-8-point-grid stylelint-rscss
+yarn add -D \
+  eslint-config-prettier \
+  prettier \
+  stylelint \
+  stylelint-8-point-grid \
+  stylelint-rscss
 ```
 
 2. Add configuration: `.stylelintrc`
