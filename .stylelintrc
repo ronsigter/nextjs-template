@@ -1,9 +1,23 @@
 {
-  "extends": ["stylelint-rscss/config", "stylelint-8-point-grid"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-rscss/config"
+  ],
   "rules": {
-    "plugin/8-point-grid": {
-      "base": 8,
-      "allowlist": ["4px", "2px", "1px"]
-    }
+    "at-rule-no-unknown": null,
+    "at-rule-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "rscss/class-format": [
+      true,
+      {
+        "maxDepth": 4,
+        "componentWhitelist": [
+          "btn",
+          "container"
+        ]
+      }
+    ]
   }
 }

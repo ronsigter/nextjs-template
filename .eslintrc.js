@@ -129,5 +129,6 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/prop-types': 'off',
     'react/no-unused-prop-types': 'off',
+    'arrow-body-style': ['error', 'always'],
   },
 }
